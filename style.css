@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: black;
+    color: white;
+}
+
+.header-links {
+    display: flex;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 50px 100px;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    /*padding: 0;
+    margin: 0;*/
+}
+
+li {
+  margin-left: 20px;
+}
+
+.sign-up-button {
+    background-color: rgb(57, 122, 219);
+    color: white;
+    padding: 5px 25px;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#pizza_img {
+    max-width: auto;
+    height: 200px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    margin-bottom: 50px;
+}
+
+.carrousel {
+    display: flex;
+    align-items: center;
+    padding: 10px 80px;
+    margin: 0 50px;
+}
+
+.square-container {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: rgb(57, 122, 219);;
+    border-style: solid;
+    border-radius: 8px;
+    flex: 2 1 auto;
+}
+
+.square-text {
+    margin: 5px;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 0.75rem;
+    max-width: 100px;
+}
+
+.quote-section {
+    background-color: ;
+}
