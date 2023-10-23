@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 100px;
-    background-color: black;
+    background-color: rgb(37, 35, 35);
     color: white;
 }
 
@@ -21,7 +21,7 @@ body {
 .top {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(37, 35, 35);
     color: white;
     padding: 50px 100px;
 }
@@ -142,4 +142,12 @@ li {
     border-style: solid;
     border-color: white;
     border-width: 1px;
+}
+
+.footer {
+    background-color: rgb(37, 35, 35);
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    padding: 20px;
 }
