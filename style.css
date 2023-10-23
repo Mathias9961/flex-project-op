@@ -85,7 +85,7 @@ li {
 .square {
     height: 100px;
     width: 100px;
-    border: rgb(57, 122, 219);;
+    border: rgb(57, 122, 219);
     border-style: solid;
     border-radius: 8px;
     flex: 2 1 auto;
@@ -112,4 +112,34 @@ li {
     font-weight: 600;
     align-self: flex-end;
     font-size: 1.2rem;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(57, 122, 219);
+    margin: 70px 100px;
+    border-radius: 8px;
+    color: white;
+    padding: 30px;
+}
+
+.cta-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.cta-text-detailed {
+    margin: 0;
+    padding: 0;
+}
+
+#bottom-button {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
 }
