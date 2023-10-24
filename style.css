@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     align-items: space-around;
     margin: 0;
+    font-family: roboto, sans-serif;
 }
 
 .header {
@@ -35,6 +36,7 @@ body {
 .top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 50px 100px;
@@ -120,7 +122,7 @@ li {
 }
 
 .quote-section {
-    background-color: rgb(147, 157, 172);
+    background-color: #E5E7EB;
     padding: 70px 200px 40px;
     display: flex;
     flex-direction: column;
